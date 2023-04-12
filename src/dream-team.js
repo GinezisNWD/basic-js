@@ -17,7 +17,6 @@ function createDreamTeam(members) {
 	if (!Array.isArray(members)) { return false };
 	const result = members.filter(item => typeof (item) === 'string').map(item => item.replace(/\s/g, '')[0].toUpperCase()).sort().join('')
 	return result;
-
 }
 
 module.exports = {
