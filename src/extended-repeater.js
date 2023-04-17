@@ -24,10 +24,6 @@ function repeater(str, options) {
 	str = str + additionResult.join(`${additionSeparator}`)
 
 	result.fill(new String(str))
-	console.log(repeatTimes, separator)
-
-
-
 
 	return result.join(`${separator}`)
 }
